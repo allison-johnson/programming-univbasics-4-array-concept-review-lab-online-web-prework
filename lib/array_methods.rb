@@ -6,11 +6,11 @@ def find_max_value(array)
   max = array[0]
   index_of_max = 0
   counter = 1
-  while counter < arr.length{
+  while counter < arr.length do
     if array[counter] > max
       index_of_max = counter
-  }//end while
-  index_of_max
+  end
+  return index_of_max
 end
 
 def find_min_value(array)
